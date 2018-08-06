@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "br.ufs.dcomp.ExemplogRPCJava";
+option java_outer_classname = "ContatosProto";
+
+package ExemplogRPCJava;
+
+// Interface exportada pelo servidor.
+service Contatos {
+  rpc AddContato(Contato) returns (Status) {}
+  rpc ListContatos(Empty) returns (stream Contato) {}
+}
+
+message Contato {
+  string nick = 1;
+  string nome = 2;
+  string email = 3;
+  string telefone = 4;
+}
+
+enum CodigoDeStatus{
+  ADDED = 0;
+  ALREDY_EXISTS = 1;
+  UPDATED = 2;
+  ERROR = 3;
+}
+
+message Status {
+  CodigoDeStatus status = 1;
+}
+
+message Empty{}

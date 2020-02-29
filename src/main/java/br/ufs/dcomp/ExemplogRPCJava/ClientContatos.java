@@ -10,7 +10,7 @@ public class ClientContatos {
         // Conexão com o servidor de RPC
         System.out.println("Contectando ao servidor...");
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8080)
-          .usePlaintext(true)
+          .usePlaintext()
           .build();
         System.out.println("OK!");
           
@@ -20,9 +20,9 @@ public class ClientContatos {
  
         // Criação de um novo contato
         Contato contato = Contato.newBuilder()
-          .setNick("marcio")
-          .setNome("Marcio da Rocha")
-          .setEmail("marcio@dcomp.ufs.br")
+          .setNick("tarcisio")
+          .setNome("Tarcisio da Rocha")
+          .setEmail("tarcisio@dcomp.ufs.br")
           .setTelefone("79 3194-6678")
           .build();
         

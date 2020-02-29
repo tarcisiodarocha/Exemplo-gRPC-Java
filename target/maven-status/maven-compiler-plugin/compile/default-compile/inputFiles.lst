@@ -1,0 +1,12 @@
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/ContatosProto.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/EmptyOrBuilder.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/src/main/java/br/ufs/dcomp/ExemplogRPCJava/ServerContatos.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/CodigoDeStatus.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/Contato.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/Empty.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/src/main/java/br/ufs/dcomp/ExemplogRPCJava/ServiceImpl.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/Status.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/StatusOrBuilder.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/java/br/ufs/dcomp/ExemplogRPCJava/ContatoOrBuilder.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/target/generated-sources/protobuf/grpc-java/br/ufs/dcomp/ExemplogRPCJava/ContatosGrpc.java
+/home/ubuntu/environment/sd/Exemplo-gRPC-Java/src/main/java/br/ufs/dcomp/ExemplogRPCJava/ClientContatos.java
